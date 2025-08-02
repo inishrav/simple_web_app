@@ -29,6 +29,14 @@ PS D:\simple_web_app> git branch
 PS D:\simple_web_app> git branch -M main                                      
 PS D:\simple_web_app> git push -u origin main  
 
+ after making changes in .html file give this to make commit chnages 
+ 
+PS D:\simple_web_app> git add .
+PS D:\simple_web_app> git commit -m "secondchanges"
+[main d103075] secondchanges
+ 2 files changed, 35 insertions(+), 3 deletions(-)
+PS D:\simple_web_app> git push
+
 in IAM :
 get the user name and will get the access keys :
 Name	Value
