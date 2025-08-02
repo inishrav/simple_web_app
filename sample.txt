@@ -1,0 +1,7 @@
+simple-web-app/
+├── index.html
+├── style.css
+├── script.js
+├── .github/
+│   └── workflows/
+│       └── deploy.yml
