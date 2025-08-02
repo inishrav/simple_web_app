@@ -5,3 +5,32 @@ simple-web-app/
 ├── .github/
 │   └── workflows/
 │       └── deploy.yml
+
+
+
+uploading to repo 
+
+PS D:\simple_web_app> git init
+Initialized empty Git repository in D:/simple_web_app/.git/
+PS D:\simple_web_app> git remote add origin https://github.com/inishrav/simple_web_app.git
+PS D:\simple_web_app> git add .git push -u origin main
+
+PS D:\simple_web_app> git commit -m "first"
+[master (root-commit) cc2a6e1] first
+ 5 files changed, 64 insertions(+)
+ create mode 100644 .github/workflows/deploy.yml
+ create mode 100644 index.html
+ create mode 100644 sample.txt
+ create mode 100644 script.js
+ create mode 100644 style.css
+PS D:\simple_web_app> 
+PS D:\simple_web_app> git branch
+* master
+PS D:\simple_web_app> git branch -M main                                      
+PS D:\simple_web_app> git push -u origin main  
+
+in IAM :
+get the user name and will get the access keys :
+Name	Value
+AWS_ACCESS_KEY_ID	Paste the access key ID
+AWS_SECRET_ACCESS_KEY	Paste the secret access key
